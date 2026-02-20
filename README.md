@@ -23,7 +23,7 @@ After training my model, it was determined to be 76.91% accurate. While I was ho
 
 ### How to Run:
 1. clone repository
-2. open portfolio.ipynb in google colab or alternative
+2. open sentiment_model_work.ipynb in google colab or alternative
 3. data is pulled through kaggle, link in jupyter notebook
 4. run! everything is in the one file
 

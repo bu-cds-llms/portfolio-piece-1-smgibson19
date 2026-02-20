@@ -2,12 +2,16 @@
 
 
 ### Can mental health status or underlying mental illnesses be detected in text patterns? How we communicate often shows how we are feeling. This is a neural network designed to attempt to detect signs of anxiety, depression, suicidal thoughts, or normalcy in text messages. 
-<br>
 
 ***
-<br>
 
-#### <u>Methods</u>: 
+###  <u>Key Results</u>: 
+
+After training my model, it was determined to be 76.91% accurate. While I was hoping for higher, with it being a small model I made, and the training data not being as robust as I would have wished, it is a large improvement to lab 1 results! While my sentiment model still is having trouble detecting anxiety, it has greatly improved picking out suicidal ideation and depression and normal. I think that with more training data with diverse examples of anxiety, and a more detailed model would improve the score. 
+
+***
+
+### <u>Methods</u>: 
 * I wanted to attempt to make my own custom model so I can implement the more optimized algorithms we learned in class. I read about FFN implementation as that is often used for classification and keeps some positionality. 
 * vectorization: I used BPE as it more effectivly tokenizes text for the model to read. 
 * embedding: I was able to encorperate an embedding step to attempt to have similar words put near each other, since for sentiment I want to know that bad, terrible, horrible etc. are related.
@@ -17,16 +21,20 @@
 
 ***
 
-####  <u>Key Results</u>: 
-- In comparison to lab 1, my new model performed much better, with []
-
-I believe that with using stronger encoders or models like BERT results could be better tuned for nuance, and also other illnesses. The training data is limited, and maybe some of the text isn't as expansive. With more time I could get more data from reddit or other sources and combine them for a larger breath of ways people talk. 
-
-***
-<br>
-
-<u>How to Run</u>:
+### How to Run:
 1. clone repository
 2. open portfolio.ipynb in google colab or alternative
 3. data is pulled through kaggle, link in jupyter notebook
 4. run! everything is in the one file
+
+### Requirements:
+| Library | Version |
+|---|---|
+| pandas | 2.2.2 |
+| numpy | 2.0.2 |
+| matplotlib | 3.10.0 |
+| scikit-learn | 1.6.1 |
+| sentence-transformers | 5.2.3 |
+| tokenizers | 0.22.2 |
+| torch | 2.10.0+cpu |
+| kagglehub | 0.3.13 |

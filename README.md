@@ -12,9 +12,9 @@ After training my model, it was determined to be 76.91% accurate. While I was ho
 ***
 
 ### <u>Methods</u>: 
-* I wanted to attempt to make my own custom model so I can implement the more optimized algorithms we learned in class. I read about FFN implementation as that is often used for classification and keeps some positionality. 
+* I wanted to attempt to make my own custom model so I can implement the more optimized algorithms we learned in class.
 * vectorization: I used BPE as it more effectivly tokenizes text for the model to read. 
-* embedding: I was able to encorperate an embedding step to attempt to have similar words put near each other, since for sentiment I want to know that bad, terrible, horrible etc. are related.
+* embedding: I was able to incorporate an embedding step to attempt to have similar words put near each other, since for sentiment I want to know that bad, terrible, horrible etc. are related.
 * dropout: I added a function called Dropout to help prevent overfitting in training as I don't have a very large amount of training data. 
 * training: I used smaller batch training because I saw with large batches it was very slow and was getting stuck. The smaller batches helped it find the minimum faster and more accurately. <br>
 <br>

@@ -7,7 +7,7 @@
 
 ###  <u>Key Results</u>: 
 
-After training my model, it was determined to be 76.91% accurate. While I was hoping for higher, with it being a small model I made, and the training data not being as robust as I would have wished, it is a large improvement to lab 1 results! While my sentiment model still is having trouble detecting anxiety, it has greatly improved picking out suicidal ideation and depression and normal. I think that with more training data with diverse examples of anxiety, and a more detailed model would improve the score. 
+After training my model, it was determined to be just over 76% accurate. While I was hoping for higher, with it being a small model I made, and the training data not being as robust as I would have wished, it is a large improvement to lab 1 results! While my sentiment model still is having trouble detecting anxiety, it has greatly improved picking out suicidal ideation and depression and normal. I think that with more training data with diverse examples of anxiety, and a more detailed model would improve the score. 
 
 ***
 

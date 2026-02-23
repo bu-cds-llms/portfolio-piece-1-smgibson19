@@ -1,7 +1,7 @@
 # Sentiment Analysis to Detect Mental Health Status
 
 
-### Can mental health status or underlying mental illnesses be detected in text patterns? How we communicate often shows how we are feeling. This is a neural network designed to attempt to detect signs of anxiety, depression, suicidal thoughts, or normalcy in text messages. 
+### Can mental health status or underlying mental illnesses be detected in text patterns? How we communicate often shows how we are feeling? This is a neural network designed to attempt to detect signs of anxiety, depression, suicidal thoughts, or normalcy in text messages. 
 
 ***
 
